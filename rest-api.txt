@@ -1,0 +1,23 @@
+Create a new Tutorial using POST /tutorials Api
+http://localhost:8000/api/posts
+
+Retrieve all Tutorials using GET /tutorials Api
+http://localhost:8000/api/posts
+
+Retrieve a single Tutorial by id using GET /tutorials/:id Api
+http://localhost:8000/api/posts/2
+
+Update a Tutorial using PUT /tutorials/:id Api
+http://localhost:8000/api/posts/2
+
+Find Tutorials by title using GET /tutorials Api
+http://localhost:8000/api/posts?title='hello'
+
+Find all published Tutorials
+http://localhost:8000/api/posts/published
+
+Delete a Tutorial using DELETE /tutorials/:id Api
+http://localhost:8000/api/posts/2
+
+Delete all Tutorials using DELETE /tutorials Api
+http://localhost:8000/api/posts
